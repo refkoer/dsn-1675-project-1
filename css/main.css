@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color:black;
+	color: white;
+	font-family: 'Arvo', serif;
+
+}
+
+header{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+	position: relative;
+	margin: 0;
+
+}
+
+li, a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+}
+
+ol{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+}
+
+p{
+	padding: 10px;
+	margin: 0;
+}
+
+.botimg{
+	width: 30%;
+	position: relative;
+}
+
+.topnav{
+	width: 100%;
+}
+
+
+.back{
+	text-align: center;
+	background-color: #737373;
+}
+
+
+@media only screen and (min-width: 28em){
+
+	.work{
+		width: 50%;
+		display: inline-block;
+		float: right;
+	}
+
+}
