@@ -55,11 +55,9 @@ p{
 }
 
 .botimg{
-	width: 30%;
-	display: inline-block;
-	text-align: center;
+	width: 50%;
 	list-style: none;
-	margin-left: 7rem;
+
 }
 
 .topnav{
@@ -72,15 +70,16 @@ p{
 	background-color: #737373;
 }
 
+.work{
+	width: 100%;
+}
 
 @media only screen and (min-width: 28em){
 
 	.work{
-		width: 50%;
+		width: 49%;
 		display: inline-block;
-		float: right;
-
-	
+		list-style: none;
 	}
 
 	html{
@@ -90,23 +89,23 @@ p{
 
 	.botimg{
 		width: 20%;
-		margin: 3.6rem;
+	
 	}
+
+	.pr{
+		width: 50%;
+		float: right;
+	}
+
 }
 
-@media only screen and (min-width: 60em;){
+@media only screen and (min-width: 43em;){
 
 	html{
 		font-size: 130%;
 		line-height: 1.6;
 	}
 
-	.botimg{
-		width: 20%;
-		margin-left: 5rem;
-	}
-
-	
 }
 
 @media only screen and	(min-width: 90em;){
