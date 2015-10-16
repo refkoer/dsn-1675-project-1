@@ -56,7 +56,9 @@ p{
 
 .botimg{
 	width: 50%;
+	position: relative;
 	list-style: none;
+	left: 90px;
 
 }
 
@@ -89,12 +91,16 @@ p{
 
 	.botimg{
 		width: 20%;
-	
+		left: 13rem;	
 	}
 
 	.pr{
 		width: 50%;
 		float: right;
+	}
+
+	.botnav{
+		display: inline-block;
 	}
 
 }
