@@ -55,6 +55,9 @@ p{
 
 .botimg{
 	width: 30%;
+	display: inline-block;
+	text-align: center;
+	list-style: none;
 }
 
 .topnav{
@@ -78,10 +81,24 @@ p{
 	}
 
 	html{
+		font-size: 120%;
+		line-height: 1.5;
+	}
+
+	.botimg{
+		width: 30%;
+		display: inline-block;
+		text-decoration: none;
+		list-style: none;
+	}
+}
+
+@media only screen and (min-width: 60;){
+
+	html{
 		font-size: 130%;
 		line-height: 1.6;
 	}
-
 }
 
 @media only screen and	(min-width: 90em;){
@@ -89,5 +106,21 @@ p{
 		html{
 		font-size: 140%;
 		line-height: 1.7;
+	}
+
+}
+
+@media print{
+
+	nav,a{
+		display: none;
+	}
+
+		main, a::after {
+		content: " (" attr(href) ") ";
+	}
+
+	span{
+		display: none;
 	}
 }
